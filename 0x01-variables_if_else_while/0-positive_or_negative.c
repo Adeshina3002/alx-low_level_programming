@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <time.h>
 /* more headers goes there */
+/* betty style doc for function main goes there */
 
 /**
  * main - entry point
  *
  * Return: 0 if success
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
