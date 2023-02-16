@@ -1,15 +1,13 @@
 /*
  * This is a program that prints using the puts function
- * int main() - Entry point of the program
+ * Main - Entry point of the program
+ * Return - 0 (Success)
  */
 
 #include <stdio.h>
 #include <string.h>
 
 int main(void)
-{
-	char str1[] = "Programming is like building a multilingual puzzle";
-
-	puts(str1);
+{	puts("Programming is like building a multilingual puzzle\n");
 	return (0);
 }
