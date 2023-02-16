@@ -1,13 +1,10 @@
-/*
- * This is a program that prints using the puts function
- * Main - Entry point of the program
- * Return - 0 (Success)
- */
-
 #include <stdio.h>
-#include <string.h>
-
+/**
+ *  * main - A program that prints a line with puts function
+ *   * Return: 0 (success)
+ */
 int main(void)
-{	puts("Programming is like building a multilingual puzzle\n");
+{
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
