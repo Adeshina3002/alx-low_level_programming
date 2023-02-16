@@ -1,12 +1,12 @@
 /*
  * This is a program that prints using the puts function
- * main - Entry point of the program
+ * int main() - Entry point of the program
  */
 
 #include <stdio.h>
 #include <string.h>
 
-int main () 
+int main(void)
 {
 	char str1[] = "Programming is like building a multilingual puzzle";
 
