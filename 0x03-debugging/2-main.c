@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- * main - prints the largest of 3 integers
- * Return: 0
- */
+* main - prints the largest of 3 integers
+* largest_number - prints the largest of 3 numbers
+* Return: 0
+*/
 
 int main(void)
 {
