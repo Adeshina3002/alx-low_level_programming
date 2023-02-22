@@ -1,2 +1,1 @@
-#!/bin/bash
-This is a project on functions and nested loops
+fuctions, nested loops

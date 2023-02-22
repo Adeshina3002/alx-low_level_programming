@@ -1,15 +1,22 @@
 #include "main.h"
 
 /**
- * _abs - computes the absolute value of an valute of an integer
- * @n: the int to check
- * Return: the absolute value of int
+ *_abs-prints the absolute value of an integer.
+ *@a:the integer to compute its absolute value.
+ *Return:returns the abs value.
+ *
  */
-int _abs(int n)
+
+int _abs(int a)
 {
-	if (n >= 0)
+
+	int x = a;
+	int absvalue;
+
+	if (x < 0)
 	{
-		return (n);
+		x = x * (-1);
 	}
-	return (-n);
+	absvalue = x;
+	return (absvalue);
 }
