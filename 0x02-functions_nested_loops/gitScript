@@ -1,6 +1,0 @@
-#!/bin/bash
-sudo git add .
-sudo echo "Enter your commit message: \n"
-read commit_message
-sudo git commit -m "$commit_message"
-sudo git push
